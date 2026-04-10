@@ -1,0 +1,23 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "data": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "active_users": 125,
+    "database_connection": true
+  },
+  "dependencies": {
+    "authentication_service": "healthy",
+    "data_service": "healthy",
+    "reporting_service": "degraded"
+  },
+  "alerts": [
+    {
+      "severity": "warning",
+      "message": "Reporting service performance degraded."
+    }
+  ]
+}
